@@ -1,0 +1,38 @@
+*** Creating Trace Output File '.\obj\29'Display_MainBoard_V21.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\core_cm0.o"'
+### List of Objects: adding '".\obj\system_m051series.o"'
+### List of Objects: adding '".\obj\startup_m051series.o"'
+### List of Objects: adding '".\obj\adc.o"'
+### List of Objects: adding '".\obj\gpio.o"'
+### List of Objects: adding '".\obj\main.o"'
+### List of Objects: adding '".\obj\pwm.o"'
+### List of Objects: adding '".\obj\uart.o"'
+### List of Objects: adding '".\obj\timer.o"'
+### List of Objects: adding '".\obj\iic.o"'
+### List of Objects: adding '".\obj\drvadc.o"'
+### List of Objects: adding '".\obj\drvebi.o"'
+### List of Objects: adding '".\obj\drvfmc.o"'
+### List of Objects: adding '".\obj\drvgpio.o"'
+### List of Objects: adding '".\obj\drvi2c.o"'
+### List of Objects: adding '".\obj\drvpwm.o"'
+### List of Objects: adding '".\obj\drvspi.o"'
+### List of Objects: adding '".\obj\drvsys.o"'
+### List of Objects: adding '".\obj\drvtimer.o"'
+### List of Objects: adding '".\obj\drvuart.o"'
+### List of Objects: adding '".\obj\retarget.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M0 ".\obj\core_cm0.o" ".\obj\system_m051series.o" ".\obj\startup_m051series.o" ".\obj\adc.o" ".\obj\gpio.o" ".\obj\main.o" ".\obj\pwm.o" ".\obj\uart.o" ".\obj\timer.o" ".\obj\iic.o" ".\obj\drvadc.o" ".\obj\drvebi.o" ".\obj\drvfmc.o" ".\obj\drvgpio.o" ".\obj\drvi2c.o" ".\obj\drvpwm.o" ".\obj\drvspi.o" ".\obj\drvsys.o" ".\obj\drvtimer.o" ".\obj\drvuart.o" ".\obj\retarget.o" --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --map --first='startup_M051Series.o(RESET)' --datacompressor=off --info=inline --entry Reset_Handler --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\lst\29'Display_MainBoard_V21.map" -o ".\obj\29'Display_MainBoard_V21.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\obj\29'Display_MainBoard_V21.axf'
+### ADS-LD Command File: '.\obj\29'Display_MainBoard_V21.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\obj\29'Display_MainBoard_V21.lnp', Handle=0x000005AC
+### Writing '.lnp' file
+### ADS-LD Command file '.\obj\29'Display_MainBoard_V21.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

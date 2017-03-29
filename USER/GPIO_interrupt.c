@@ -1,0 +1,10 @@
+#include "M051Series.h"
+#include "M051.h"
+#include "Driver\DrvADC.h"
+#include "Driver\DrvPWM.h"
+#include "Driver\DrvGPIO.h"
+#include "Driver\DrvSYS.h"
+#include "Driver\DrvUART.h"
+#include "Driver\DrvFMC.h"
+#include "global.h"	
+

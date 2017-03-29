@@ -1,0 +1,1 @@
+"USER\main.c" -E -c --cpu Cortex-M0 -W -O1 --apcs=interwork --split_sections -I.\USER -I.\Library\CM0\CoreSupport -I.\Library\CM0\DeviceSupport\Nuvoton\M051Series -I.\Library\Include\Driver -I.\Library\Include\M051-LB_004 -I.\Library\Include\System -I "D:\Program Files\Keil\ARM\INC" -I "D:\Program Files\Keil\ARM\INC\Nuvoton\M051Series" -o ".\lst\main.i"
